@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-# Suite de Fibionnachi
+# no imports
+""" Suite de Fibionnachi """
 a = 1
 b = 1
 actuallyTimes = 0
