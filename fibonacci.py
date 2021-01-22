@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # no imports
-""" Suite de Fibionnachi """
+""" Suite de Fibonacci """
 a = 1
 b = 1
 actuallyTimes = 0
@@ -10,13 +10,13 @@ def ask():
     mode = str(input("Modes : toute la liste (t), valeur seulement(v). Entrez votre choix (t, v) : "))
     if mode == "t":
         try:
-            times = int(input("Entrez le nombre de valeurs à calculer suivant la suite de Fibionnachi : "))
+            times = int(input("Entrez le nombre de valeurs à calculer suivant la suite de Fibonacci : "))
         except ValueError:
             print("Erreur : le nombre de valeurs sera 10.")
             times = 10
     elif mode == "v":
         try:
-            times = int(input("Entrez la valeur à calculer suivant la suite de Fibionnachi : "))
+            times = int(input("Entrez la valeur à calculer suivant la suite de Fibonacci : "))
         except ValueError:
             print("Erreur : la valeur sera 10.")
             times = 10
